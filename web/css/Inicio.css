@@ -1,0 +1,139 @@
+.alinea{
+    text-align: right;
+}
+
+.fondo{ 
+     background: url('../img/fondov1.jpg') no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.carta{
+    background: #ffffff;
+    border-radius: 5px;
+    padding-top:30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 150px;
+    margin-top:50px;
+    
+}
+
+
+.navbar a{
+    color: #ffffff !important;
+}
+
+.navbar a:hover{
+    color: #D0D3D4;
+}
+
+.btn{
+    font-size: 16px;
+}
+
+.boton{
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right: 20px;
+    padding-left:20px;
+}
+
+nav li a{
+    margin-left:15px;
+}
+
+
+.opinion{
+    background: #a51c30;
+    
+}
+
+.opinion h3{
+    padding-top:30px;
+    padding-bottom:25px;
+    color: #ffffff;
+}
+
+.cartaopinion img{
+    height: 70px;
+}
+
+.cartaopinion{
+    padding-top:15px;
+    padding-bottom:15px;
+    margin-bottom: 70px;
+    background: #ffffff;
+}
+
+footer{
+    background: #414141;
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    list-style: none;
+}
+
+.rocket{
+    margin-left:50px;
+}
+
+.parte2{
+    padding-top:20px;
+}
+
+.imgfondo{
+    display:none;
+}
+
+.cat{
+    margin:auto;
+}
+
+.cu{
+    margin:auto;
+}
+
+.spi{
+    margin: auto;
+}
+
+.user{
+    margin-right: 6px;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 767px){
+    .imgc{
+       padding-top: 50px;
+    }
+
+    .imgm{
+        width:120px;
+    }
+
+    .rocket{
+      margin-left:10px;
+    }
+
+    .carta{
+        margin-bottom:0px;
+        border-bottom: 15px solid #a51c30;
+        border-top:15px solid #a51c30;
+        margin-top:0px;
+    }
+
+    .fondo{
+        background: none;
+    }
+
+
+
+    .navbar a{
+        color: black !important;
+    }
+
+
+  
+}
