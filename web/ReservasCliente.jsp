@@ -5,6 +5,7 @@
 --%>
 
 
+<%@page import="bean.ReservaCliente"%>
 <%@page import="bean.Reserva"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="dao.ReservaDAO"%>
@@ -139,7 +140,7 @@ Cliente objC=new Cliente();
 	
         
         ReservaDAO objDAO = new ReservaDAO();
-        ArrayList<Reserva> lista = objDAO.listaReserva(session.getAttribute("user").toString());
+        ArrayList<ReservaCliente> lista = objDAO.listaReservaCliente(session.getAttribute("user").toString());
        
        
      %>
@@ -165,12 +166,12 @@ Cliente objC=new Cliente();
                        
                  </tr></thead>
                                     
-               <%  for(Reserva objR: lista){ 
-                    idR = objR.getIdR()+" ";
-                    clifk = objR.getClifk()+" ";
-                    probfk = objR.getProbfk()+" ";
-                    fec = objR.getFec();
-                    hora = objR.getHora();
+               <%  for(ReservaCliente objR: lista){ 
+                    idR = objR.getIdr()+" ";
+                    clifk = objR.getNom()+" ";
+                    probfk = objR.getNomprob()+" ";
+                    fec = objR.getFecres();
+                    hora = objR.getHorares();
                     estado = objR.getEstado();
                     
                             
